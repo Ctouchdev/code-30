@@ -1,0 +1,340 @@
+/* HTML */
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #404040;
+}
+
+.orange-color {
+  color: #FF9933;
+}
+
+.blue-color {
+  color: #0080FF;
+}
+
+.blue-back {
+  background-color: #0080FF;
+}
+
+.white-color {
+  color: #FFF;
+}
+
+.white-space {
+  display: flex;
+  white-space: pre-line;
+  text-align: left;
+  justify-content: center;
+}
+
+.enter-space {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.7;
+  padding-bottom: 30px;
+}
+
+.med-heading {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.pricing-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top: 2%;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+  background-image: url("code30_back.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 14%;
+}
+
+
+.btn {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1rem;
+  transition: .5s;
+  margin-bottom: 9%;
+}
+
+.btn-lg {
+  width: 86%;
+}
+
+.btn:hover {
+  color: #FF9933 !important;
+}
+
+.rotateLogo {
+  transform: rotate(-20deg);
+  position: absolute;
+  width: 114%;
+  right: .1%;
+  top: 1%;
+}
+
+.logo-grow {
+  transition: 1s;
+}
+
+.logo-grow:hover {
+  transform: scale(1.1);
+}
+
+/* Navigation Section */
+
+.navbar {
+  padding-bottom: 5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.resources-pad {
+  padding-bottom: .1rem !important;
+}
+
+.resources-logo-pad {
+  padding: 1.4% 16% !important;
+}
+
+.resources-logo {
+  transition: 1s;
+}
+
+.resources-logo:hover {
+  transform: scale(1.1);
+}
+
+.color-change-orange {
+  transition: .5s;
+}
+
+.color-change-orange:hover {
+  color: #FF9933 !important;
+  transform: scale(1.05);
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 2.3rem;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+  padding: 0 18px;
+  transition: .5s;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
+/* Features Section */
+
+#features {
+  padding: 5% 10%;
+  background-image: url("resources_back.png");
+  position: relative;
+}
+
+.feature-box {
+  padding: 6%;
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 5%;
+  transition: .5s;
+}
+
+.icon:hover {
+  color: #ff4c68;
+  transform: scale(1.2);
+}
+
+/* Testimonial Sections */
+
+#testimonials {
+  background-color: #0066CC;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 1%;
+}
+
+.carousel-item {
+  padding: 5% 12%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #66B2FF;
+  color: #fff;
+  padding-bottom: 3%;
+}
+
+.pres-logo {
+  width: 13%;
+  margin: 40px;
+}
+
+/* Pricing Section */
+
+.card-deck {
+  padding: 1% 15% 5%;
+}
+
+.card-pad {
+  padding: 1% 5%;
+  padding-bottom: 3%;
+}
+
+.card-header {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.btn-sign-up {
+  font-weight: bold;
+  background-color: #fff;
+  color: #005CD4;
+  transition: .5s;
+}
+
+.btn-sign-up:hover {
+  transform: scale(1.145);
+}
+
+.card-title:hover {
+  transform: scale(1.2);
+}
+
+.list-prices {
+  padding-bottom: 5%;
+}
+
+.pricing-card-title {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+/* Media Resize Section */
+
+@media (max-width: 991px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .rotatePhone {
+    position: static;
+    transform: rotate(0);
+    margin: 3% 1% 10%;
+  }
+
+  .card-deck {
+    justify-content: center;
+    position: relative;
+    display:
+  }
+
+  .card-pad {
+    margin: 2% 11%;
+  }
+
+  .pricing-card-title {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 2.7rem;
+    line-height: 1.4;
+  }
+
+  .container-fluid {
+    margin: 3% 1% 1%;
+  }
+}
+
+/* Bottom Section */
+
+#cta {
+  background-color: #0066CC;
+  color: #fff;
+}
+
+.bottom-sec {
+  padding: 5% 12% 1%;
+}
+
+.bottom-btn-pad {
+  padding: 5% 1% 0%;
+}
+
+#footer {
+  background-color: #fff;
+}
+
+.footer-icons {
+  margin: 1%;
+  display: inline-flex;
+}
+
+.modal-footer {
+  margin-bottom: .1%;
+}
+
+.modal-lg {
+  max-width: 1000px;
+}
+
+.modal-content {
+  border: none;
+}
